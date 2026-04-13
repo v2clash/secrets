@@ -6,7 +6,7 @@ import json
 import base64
 
 # -------------------------- 配置抓取部分 --------------------------
-BASE_URL = "https://www.v2nodes.com"
+BASE_URL = "https://zh.v2nodes.com"
 PAGE_START = 1
 PAGE_END = 100
 PAGES = [f"{BASE_URL}/?page={i}" for i in range(PAGE_START, PAGE_END + 1)]
